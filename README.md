@@ -16,7 +16,7 @@
 ## What's Already Been Done
 
 * Gems `rspec-rails`, `factory_girl_rails`, and `ffaker` (and a few others) are installed in the Gemfile for the `development` and `test` groups.
-* Terminal command `rails generate rspec:install` has been run, creating the `spec` directory and its contents.
+* Terminal command `rails generate rspec:install` has been run, creating the `.rspec` file and the `spec` directory and its contents.
 
 ## Intro: Items TDD
 

@@ -288,7 +288,7 @@
   end
   ```
 
-* It can be a benefit to test with data that is more realistic.  Sometimes people use randomized data as well, but you have to be extremely careful as this can introduce hard to track-down intermittent test failures.
+* It can be helpful to test with data that is more realistic.  Sometimes people use randomized data as well. The benefit is you might find edge cases in random data that you forgot initially.  However, be extremely careful with randomized data, as this can introduce hard to track-down intermittent test failures.
 
 * Use Factory Girl's "[lazy attributes](https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#lazy-attributes)" and the Ruby array method [`sample`](http://ruby-doc.org/core-2.2.0/Array.html#method-i-sample) to make the factory randomly assign either `"sold"` or `"unsold"` as the status of each item it creates.
 

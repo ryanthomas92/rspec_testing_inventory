@@ -12,6 +12,12 @@
 5. Run `rspec` in the Terminal. You should see `0 examples, 0 failures`.
 6. Create a new `my-items-intro` branch to start working on, and switch to it.
 
+
+## What's Already Been Done
+
+* Gems `rspec-rails`, `factory_girl_rails`, and `ffaker` (and a few others) are installed in the Gemfile for the `development` and `test` groups.
+* Terminal command `rails generate rspec:install` has been run, creating the `spec` directory and its contents.
+
 ## Intro: Items TDD
 
 #### Goal: Set up items controller test files.
